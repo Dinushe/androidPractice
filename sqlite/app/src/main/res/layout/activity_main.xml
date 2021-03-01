@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnSbmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:onClick="btnSubmit"
+        android:text="submit" />
+
+    <Button
+        android:id="@+id/btnShw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:onClick="btnShow"
+        android:text="show" />
+
+    <EditText
+        android:id="@+id/txtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="enter id"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:onClick="btnEdit"
+        android:text="edit" />
+
+    <Button
+        android:id="@+id/btnDlt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:onClick="btnDelete"
+        android:text="delete" />
+</LinearLayout>

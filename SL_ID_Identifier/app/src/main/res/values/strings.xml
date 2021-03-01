@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SL_ID_Identifier</string>
+    <string name="hint_NIC">Enter NIC number...</string>
+    <string name="submit">submit</string>
+    <string name="dob">\"Date of birth : \"</string>
+    <string name="gender">\"Gender : \"</string>
+    <string name="citizenship">\"Citizenship : \"</string>
+    <string name="newLine">\n</string>
+    <string name="sabaragamuwa">Sabaragamuwa</string>
+    <string name="blueNumber">Enter Blue Number</string>
+</resources>
