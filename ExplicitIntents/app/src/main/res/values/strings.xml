@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IntentsExplicit</string>
+    <string name="enterName">enter your name</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="activity_3">Activity 3</string>
+    <string name="text_from_activity_2_displayed_here">Text from activity 2 displayed here</string>
+    <string name="name">Name</string>
+    <string name="submit">submit</string>
+    <string name="welcome_to_activity_3">Welcome To Activity 3</string>
+    <string name="surname">Enter Surname</string>
+</resources>

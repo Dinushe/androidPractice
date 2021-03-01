@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Tasty</string>
+    <string name="resName">Tasty</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="btnRegister">REGISTER</string>
+    <!-- Question 02 (a) -->
+    <string name="btnSubmit">SUBMIT</string>
+    <string name="txtName">Name :</string>
+    <string name="txtTele">Contact No:</string>
+    <string name="txtEmail2">Email:</string>
+    <string name="btnBook">Book a Table</string>
+    <string name="btnTake">TAKE AWAY</string>
+    <string name="btnHistory">HISTORY</string>
+    <string name="btnLogout">LOGOUT</string>
+    <string name="txtID">ID:</string>
+    <string name="txtTbCat">Table Category:</string>
+    <string name="txtMeal">Meal:</string>
+    <string name="txtTblBooking">Table Booking Fee:</string>
+    <string name="txtService">Service Charge:</string>
+    <string name="txtTotal">Total Charges:</string>
+    <string name="btnHome">HOME</string>
+    <string name="btnOK">OK</string>
+    <string name="txtTakeAway">Take Away</string>
+    <string name="btnTable">Table</string>
+    <string name="btnSave">Save</string>
+    <string name="txtTableBook">Table Bookings</string>
+    <string name="txtHistory">History</string>
+    <string name="enter_guest_contact_no">Enter Guest Contact No</string>
+
+    <!-- Question 01 (a) -->
+
+    <string-array name="TableBookingCategory">
+        <item>Vegan</item>
+        <item>Non-Vegan</item>
+        <item>Kids Meal</item>
+        <item>Japanese Special</item>
+        <item>All you can eat buffet</item>
+    </string-array>
+
+
+    <!-- Question 01 (b) -->
+
+    <string-array name="TakeawayCategory">
+        <item>FriedRiceCombo</item>
+        <item>FriedChickenWithMushrooms</item>
+        <item>IceCreamCombo</item>
+        <item>DoubleCheeseKottu</item>
+        <item>TripleBurgerMax</item>
+    </string-array>
+
+</resources>
